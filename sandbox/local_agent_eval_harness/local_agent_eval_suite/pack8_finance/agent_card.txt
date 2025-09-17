@@ -1,0 +1,30 @@
+A document-level financial agent that compares and analyzes Tesla’s 2023 and 2024 10-K filings to support financial research, strategy insights, and regulatory tracking.
+
+Side-by-Side Comparison
+
+Revenue, net income, operating expenses
+
+Risk factors, regulatory disclosures
+
+Segment details (Automotive, Energy)
+
+FSD and Robotaxi strategy evolution
+
+Change Detection
+
+Identify new product mentions (e.g., Cybertruck rollout)
+
+Highlight changes in risk disclosures, factory listings
+
+Trend Summary
+
+Financial growth patterns (YoY)
+
+CAPEX, R&D, margin trends
+
+Keyword + Clause Extraction
+
+“Show where IRA tax credits were mentioned in 2024”
+
+“List Tesla’s key factories in 2023 vs 2024”
+

@@ -1,0 +1,515 @@
+{
+  "results": [
+    {
+      "task": "p1_finance_invoice_match",
+      "pack_dir": "./local_agent_eval_suite/pack1",
+      "prompt": "Return JSON with invoice_id, bank_date (YYYY-MM-DD), and amount for Vendor X INV-1043 by reading local files.",
+      "expected_keys": [
+        "finance",
+        "invoice_to_bank_match"
+      ],
+      "general_llm": {
+        "score": 0.0,
+        "details": {
+          "total": 3,
+          "correct": 0,
+          "diffs": {
+            "/invoice_id": {
+              "expected": "INV-1043",
+              "got": null
+            },
+            "/bank_date": {
+              "expected": "2025-06-15",
+              "got": null
+            },
+            "/amount": {
+              "expected": 1250.0,
+              "got": null
+            }
+          }
+        }
+      },
+      "local_agent": {
+        "score": 1.0,
+        "details": {
+          "total": 3,
+          "correct": 3,
+          "diffs": {}
+        }
+      },
+      "artifacts_dir": "runs/p1_finance_invoice_match"
+    },
+    {
+      "task": "p1_hr_post_termination",
+      "pack_dir": "./local_agent_eval_suite/pack1",
+      "prompt": "Return JSON with employee_id, name, and a list of 'timestamp door result' strings for any badge events after termination.",
+      "expected_keys": [
+        "hr_security",
+        "post_termination_access"
+      ],
+      "general_llm": {
+        "score": 0.0,
+        "details": {
+          "total": 4,
+          "correct": 0,
+          "diffs": {
+            "/employee_id": {
+              "expected": "E002",
+              "got": null
+            },
+            "/name": {
+              "expected": "Bob Lee",
+              "got": null
+            },
+            "/events/0": {
+              "expected": "2025-08-03T07:45:18 HQ-Front granted",
+              "got": null
+            },
+            "/events/1": {
+              "expected": "2025-08-03T19:12:44 HQ-ServerRoom granted",
+              "got": null
+            }
+          }
+        }
+      },
+      "local_agent": {
+        "score": 1.0,
+        "details": {
+          "total": 4,
+          "correct": 4,
+          "diffs": {}
+        }
+      },
+      "artifacts_dir": "runs/p1_hr_post_termination"
+    },
+    {
+      "task": "p1_ops_spike",
+      "pack_dir": "./local_agent_eval_suite/pack1",
+      "prompt": "Return JSON with keys: 500_spike_window (human-readable), top_endpoint, root_cause_hint by correlating nginx.log and system.log.",
+      "expected_keys": [
+        "ops"
+      ],
+      "general_llm": {
+        "score": 0.0,
+        "details": {
+          "total": 3,
+          "correct": 0,
+          "diffs": {
+            "/500_spike_window": {
+              "expected": "2025-07-28 14:05–14:10 -0700",
+              "got": null
+            },
+            "/top_endpoint": {
+              "expected": "/api/payments",
+              "got": null
+            },
+            "/root_cause_hint": {
+              "expected": "DB deadlocks on payments workers",
+              "got": null
+            }
+          }
+        }
+      },
+      "local_agent": {
+        "score": 1.0,
+        "details": {
+          "total": 3,
+          "correct": 3,
+          "diffs": {}
+        }
+      },
+      "artifacts_dir": "runs/p1_ops_spike"
+    },
+    {
+      "task": "p2_emails_discount_thread",
+      "pack_dir": "./local_agent_eval_suite/pack2",
+      "prompt": "Parse emails to return JSON with po, issue_invoice, corrected_invoice, discount, start, skus.",
+      "expected_keys": [
+        "emails",
+        "discount_thread"
+      ],
+      "general_llm": {
+        "score": 0.0,
+        "details": {
+          "total": 7,
+          "correct": 0,
+          "diffs": {
+            "/po": {
+              "expected": "PO-8821",
+              "got": null
+            },
+            "/issue_invoice": {
+              "expected": "INV-1077",
+              "got": null
+            },
+            "/corrected_invoice": {
+              "expected": "INV-1077A",
+              "got": null
+            },
+            "/discount": {
+              "expected": "12%",
+              "got": null
+            },
+            "/start": {
+              "expected": "2025-07-01",
+              "got": null
+            },
+            "/skus/0": {
+              "expected": "SKU-A",
+              "got": null
+            },
+            "/skus/1": {
+              "expected": "SKU-B",
+              "got": null
+            }
+          }
+        }
+      },
+      "local_agent": {
+        "score": 1.0,
+        "details": {
+          "total": 7,
+          "correct": 7,
+          "diffs": {}
+        }
+      },
+      "artifacts_dir": "runs/p2_emails_discount_thread"
+    },
+    {
+      "task": "p2_audio_merge",
+      "pack_dir": "./local_agent_eval_suite/pack2",
+      "prompt": "Merge transcript segments across silence. Return a list of {start, end, text} segments preserving cluster start times.",
+      "expected_keys": [
+        "audio",
+        "merged_transcript"
+      ],
+      "general_llm": {
+        "score": 0.0,
+        "details": {
+          "total": 6,
+          "correct": 0,
+          "diffs": {
+            "/0/start": {
+              "expected": 0.0,
+              "got": null
+            },
+            "/0/end": {
+              "expected": 0.8,
+              "got": null
+            },
+            "/0/text": {
+              "expected": "Quarterly review",
+              "got": null
+            },
+            "/1/start": {
+              "expected": 1.2,
+              "got": null
+            },
+            "/1/end": {
+              "expected": 2.4,
+              "got": null
+            },
+            "/1/text": {
+              "expected": "Vendor X discount confirmed",
+              "got": null
+            }
+          }
+        }
+      },
+      "local_agent": {
+        "score": 1.0,
+        "details": {
+          "total": 6,
+          "correct": 6,
+          "diffs": {}
+        }
+      },
+      "artifacts_dir": "runs/p2_audio_merge"
+    },
+    {
+      "task": "p2_finance_fx",
+      "pack_dir": "./local_agent_eval_suite/pack2",
+      "prompt": "Compute effective USD for EUR 4300 on 2025-06-20 per fx_notes.md and compare vs ledger USD; return JSON with fx_effective_usd and delta_vs_ledger_usd.",
+      "expected_keys": [
+        "finance_advanced"
+      ],
+      "general_llm": {
+        "score": 0.0,
+        "details": {
+          "total": 5,
+          "correct": 0,
+          "diffs": {
+            "/fx_effective_usd_formula": {
+              "expected": "4300 * 1.082 * (1 - 0.005)",
+              "got": null
+            },
+            "/fx_effective_usd": {
+              "expected": 4629.34,
+              "got": 0
+            },
+            "/ledger_fx_rate_used": {
+              "expected": 1.075,
+              "got": null
+            },
+            "/delta_vs_ledger_usd": {
+              "expected": 6.34,
+              "got": 0
+            },
+            "/duplicate_saas_hint": {
+              "expected": true,
+              "got": null
+            }
+          }
+        }
+      },
+      "local_agent": {
+        "score": 0.4,
+        "details": {
+          "total": 5,
+          "correct": 2,
+          "diffs": {
+            "/fx_effective_usd_formula": {
+              "expected": "4300 * 1.082 * (1 - 0.005)",
+              "got": null
+            },
+            "/ledger_fx_rate_used": {
+              "expected": 1.075,
+              "got": null
+            },
+            "/duplicate_saas_hint": {
+              "expected": true,
+              "got": null
+            }
+          }
+        }
+      },
+      "artifacts_dir": "runs/p2_finance_fx"
+    },
+    {
+      "task": "p3_ocr_invoice",
+      "pack_dir": "./local_agent_eval_suite/pack3",
+      "prompt": "OCR PBM scans to extract inv_id, discount, po, bank_wire_ref, delivery_order and delivery_sku_qty (with date). Return JSON.",
+      "expected_keys": [
+        "ocr_scans"
+      ],
+      "general_llm": {
+        "score": 0.0,
+        "details": {
+          "total": 7,
+          "correct": 0,
+          "diffs": {
+            "/inv_id": {
+              "expected": "INV-2091",
+              "got": null
+            },
+            "/discount": {
+              "expected": "12%",
+              "got": null
+            },
+            "/po": {
+              "expected": "PO-8821",
+              "got": null
+            },
+            "/bank_wire_ref": {
+              "expected": "EU-818",
+              "got": null
+            },
+            "/delivery_order": {
+              "expected": "O-2007",
+              "got": null
+            },
+            "/delivery_sku_qty/SKU-B": {
+              "expected": 6,
+              "got": null
+            },
+            "/delivery_sku_qty/date": {
+              "expected": "2025-07-29",
+              "got": null
+            }
+          }
+        }
+      },
+      "local_agent": {
+        "score": 1.0,
+        "details": {
+          "total": 7,
+          "correct": 7,
+          "diffs": {}
+        }
+      },
+      "artifacts_dir": "runs/p3_ocr_invoice"
+    },
+    {
+      "task": "p3_sql_recon",
+      "pack_dir": "./local_agent_eval_suite/pack3",
+      "prompt": "From sql/sales.db and archives/audit_bundle.tar (zip inside), compute o2007_unit_price_db, agreed_unit_price_zip, qty, total_difference_usd, refund_recorded_usd, refund_needed_additional_usd. Return JSON.",
+      "expected_keys": [
+        "sql_recon"
+      ],
+      "general_llm": {
+        "score": 0.0,
+        "details": {
+          "total": 6,
+          "correct": 0,
+          "diffs": {
+            "/o2007_unit_price_db": {
+              "expected": 170.0,
+              "got": null
+            },
+            "/agreed_unit_price_zip": {
+              "expected": 150.0,
+              "got": null
+            },
+            "/qty": {
+              "expected": 6,
+              "got": null
+            },
+            "/total_difference_usd": {
+              "expected": 120.0,
+              "got": null
+            },
+            "/refund_recorded_usd": {
+              "expected": 170.0,
+              "got": null
+            },
+            "/refund_needed_additional_usd": {
+              "expected": -50.0,
+              "got": null
+            }
+          }
+        }
+      },
+      "local_agent": {
+        "score": 1.0,
+        "details": {
+          "total": 6,
+          "correct": 6,
+          "diffs": {}
+        }
+      },
+      "artifacts_dir": "runs/p3_sql_recon"
+    },
+    {
+      "task": "p4_eml_attachments",
+      "pack_dir": "./local_agent_eval_suite/pack4",
+      "prompt": "Parse inv3001_with_attachments.eml. Return JSON with csv_rows (as list of dicts) and attached_pdf filename.",
+      "expected_keys": [
+        "eml_attachments"
+      ],
+      "general_llm": {
+        "score": 0.0,
+        "details": {
+          "total": 4,
+          "correct": 0,
+          "diffs": {
+            "/csv_rows/0/sku": {
+              "expected": "SKU-B",
+              "got": null
+            },
+            "/csv_rows/0/qty": {
+              "expected": "4",
+              "got": null
+            },
+            "/csv_rows/0/unit_price": {
+              "expected": "150.00",
+              "got": null
+            },
+            "/attached_pdf": {
+              "expected": "invoice_inv3001_scan.pdf",
+              "got": null
+            }
+          }
+        }
+      },
+      "local_agent": {
+        "score": 1.0,
+        "details": {
+          "total": 4,
+          "correct": 4,
+          "diffs": {}
+        }
+      },
+      "artifacts_dir": "runs/p4_eml_attachments"
+    },
+    {
+      "task": "p4_xlsx_summary",
+      "pack_dir": "./local_agent_eval_suite/pack4",
+      "prompt": "Evaluate ops_finance.xlsx formulas and return JSON with expected_values for Inputs!D2, Inputs!D3, Summary!B1, Summary!B2.",
+      "expected_keys": [
+        "xlsx_formulas"
+      ],
+      "general_llm": {
+        "score": 0.0,
+        "details": {
+          "total": 6,
+          "correct": 0,
+          "diffs": {
+            "/inputs_totals": {
+              "expected": "SUM(Inputs!D2:D3)",
+              "got": null
+            },
+            "/inputs_discounted_totals": {
+              "expected": "SUM(Inputs!F2:F3)",
+              "got": null
+            },
+            "/expected_values/Inputs!D2": {
+              "expected": 420.0,
+              "got": null
+            },
+            "/expected_values/Inputs!D3": {
+              "expected": 600.0,
+              "got": null
+            },
+            "/expected_values/Summary!B1": {
+              "expected": 1020.0,
+              "got": null
+            },
+            "/expected_values/Summary!B2": {
+              "expected": 897.6,
+              "got": null
+            }
+          }
+        }
+      },
+      "local_agent": {
+        "score": 0.0,
+        "details": {
+          "total": 6,
+          "correct": 0,
+          "diffs": {
+            "/inputs_totals": {
+              "expected": "SUM(Inputs!D2:D3)",
+              "got": null
+            },
+            "/inputs_discounted_totals": {
+              "expected": "SUM(Inputs!F2:F3)",
+              "got": null
+            },
+            "/expected_values/Inputs!D2": {
+              "expected": 420.0,
+              "got": null
+            },
+            "/expected_values/Inputs!D3": {
+              "expected": 600.0,
+              "got": null
+            },
+            "/expected_values/Summary!B1": {
+              "expected": 1020.0,
+              "got": null
+            },
+            "/expected_values/Summary!B2": {
+              "expected": 897.6,
+              "got": null
+            }
+          }
+        }
+      },
+      "artifacts_dir": "runs/p4_xlsx_summary"
+    }
+  ],
+  "summary": {
+    "general_llm_avg": 0.0,
+    "local_agent_avg": 0.8400000000000001,
+    "num_tasks": 10
+  }
+}

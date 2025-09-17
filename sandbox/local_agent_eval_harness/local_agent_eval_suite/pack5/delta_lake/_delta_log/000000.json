@@ -1,0 +1,1 @@
+{"commitInfo": {"version": 0, "timestamp": "2025-07-03T00:00:00Z", "operation": "WRITE"}, "add": [{"path": "date=2025-07-01/part-00000.csv", "size": 123, "dataChange": true}, {"path": "date=2025-07-02/part-00000.csv", "size": 123, "dataChange": true}]}

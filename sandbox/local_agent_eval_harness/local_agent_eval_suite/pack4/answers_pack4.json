@@ -1,0 +1,45 @@
+{
+  "pdf_scans": {
+    "expense_report": {
+      "month": "JUL 2025",
+      "meals": 124.5,
+      "rideshare": 38.2,
+      "total": 162.7,
+      "emp_id": "E002"
+    },
+    "invoice_scan": {
+      "invoice": "INV-3001",
+      "date": "2025-07-03",
+      "sku": "SKU-B",
+      "qty": 4,
+      "unit": 150.0,
+      "discount": "12%",
+      "po": "PO-8821"
+    }
+  },
+  "eml_attachments": {
+    "csv_rows": [
+      {
+        "sku": "SKU-B",
+        "qty": "4",
+        "unit_price": "150.00"
+      }
+    ],
+    "attached_pdf": "invoice_inv3001_scan.pdf"
+  },
+  "xlsx_formulas": {
+    "inputs_totals": "SUM(Inputs!D2:D3)",
+    "inputs_discounted_totals": "SUM(Inputs!F2:F3)",
+    "expected_values": {
+      "Inputs!D2": 420.0,
+      "Inputs!D3": 600.0,
+      "Summary!B1": 1020.0,
+      "Summary!B2": 897.6
+    }
+  },
+  "parquet_or_csv": {
+    "parquet_written": false,
+    "fallback": "CSV",
+    "row_count": 3
+  }
+}

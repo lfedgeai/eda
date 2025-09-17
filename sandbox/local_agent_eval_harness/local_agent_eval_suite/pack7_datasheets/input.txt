@@ -1,0 +1,12 @@
+“What are the absolute max voltage and current ratings for the ESP32-S3?”
+“How do I configure UART0 with interrupt-driven RX in C?”
+“List the steps to set up GPIO pins for PWM output.”
+“Compare ESP32-S3FN8 vs ESP32-S3R8 in terms of PSRAM and flash.”
+“What are the deep-sleep current consumption specs?”
+“How do I trigger a wake-up using touch sensors?”
+“Provide the I2C initialization code example from the TRM.”
+“What’s the boot mode strapping configuration?”
+“Can I use both USB OTG and UART at the same time?”
+“Where is the clock divider register for SPI3?”
+“Which GPIOs can be used as analog inputs?”
+“How many DMA channels are available and how to use them with SPI?”

@@ -1,0 +1,5 @@
+“What does this screenshot say?”
+“Are there any dates, deadlines, or action items?”
+“Can you summarize all the charts and tables?”
+“What's the main point of this slide?”
+"Find me the picture having jensen huang"

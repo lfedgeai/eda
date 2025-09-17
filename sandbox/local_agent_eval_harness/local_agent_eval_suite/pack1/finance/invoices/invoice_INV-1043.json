@@ -1,0 +1,16 @@
+{
+  "invoice_id": "INV-1043",
+  "vendor": "Vendor X",
+  "amount": 1250.0,
+  "currency": "USD",
+  "due_date": "2025-06-15",
+  "po": "PO-7781",
+  "line_items": [
+    {
+      "desc": "Quarterly support retainer",
+      "qty": 1,
+      "unit_price": 1250.0
+    }
+  ],
+  "status": "paid (per bank txn 2025-06-15)"
+}

@@ -1,0 +1,10 @@
+“What is the average ACC magnitude over the full log?”
+“Show me when the LeftFoot sensor values are non-zero.”
+“What are the sample rates for GYRO, ACC, and MAG?”
+“Were there any long gaps in GYRO data?”
+“Plot ACC vs time and highlight the top 3 spikes.”
+“Summarize LeftFoot sensor activity per second.”
+“When was the highest magnitude of acceleration recorded?”
+“Compare the GYRO readings at timestamps A and B.”
+“Are there any segments with abnormal sensor readings?”
+“Can you export all MAG data in a separate CSV?”

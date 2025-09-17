@@ -1,0 +1,11 @@
+{
+  "po": "PO-8821",
+  "issue_invoice": "INV-1077",
+  "corrected_invoice": "INV-1077A",
+  "discount": "12%",
+  "start": "2025-07-01",
+  "skus": [
+    "SKU-A",
+    "SKU-B"
+  ]
+}

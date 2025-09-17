@@ -1,0 +1,20 @@
+From: "Vendor X" <billing@vendorx.com>
+To: "AP" <ap@example.com>
+Subject: Invoice INV-3055
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUND"
+
+--BOUND
+Content-Type: text/plain; charset="utf-8"
+
+Please find attached invoice INV-3055 as a CSV.
+
+--BOUND
+Content-Type: text/csv; name="INV-3055.csv"
+Content-Disposition: attachment; filename="INV-3055.csv"
+
+invoice_id,sku,qty,unit_price
+INV-3055,SKU-A,4,210.00
+INV-3055,SKU-B,2,170.00
+
+--BOUND--

@@ -1,0 +1,7 @@
+title: AI Slides Demo
+assets:
+  - slides.json
+  - audio/
+notes:
+  - Ensure audio aligns with transcript indices.
+  - Next review: see company.ics

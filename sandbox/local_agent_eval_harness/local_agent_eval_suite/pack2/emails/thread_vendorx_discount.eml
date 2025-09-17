@@ -1,0 +1,31 @@
+From: "CFO" <cfo@example.com>
+To: "AP Manager" <ap@example.com>
+Date: Fri, 27 Jun 2025 09:14:22 -0700
+Subject: PO-8821 Approval for Vendor X Retainer
+Message-ID: <msg-001@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Approved to proceed with PO-8821 for Vendor X. Ensure the July discount (12% on SKUs A & B) is reflected on all invoices issued after 2025-07-01.
+
+From: "AP Manager" <ap@example.com>
+To: "CFO" <cfo@example.com>
+Date: Tue, 01 Jul 2025 10:03:11 -0700
+Subject: Re: PO-8821 Approval for Vendor X Retainer
+In-Reply-To: <msg-001@example.com>
+Message-ID: <msg-002@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Noted. Vendor X invoice INV-1077 arrived this morning but shows *no* discount line. We'll dispute if they don't issue a corrected invoice by EOD.
+
+From: "Vendor X Billing" <billing@vendorx.com>
+To: "AP Manager" <ap@example.com>
+Date: Wed, 02 Jul 2025 08:42:00 -0700
+Subject: Re: INV-1077 Discount
+In-Reply-To: <msg-002@example.com>
+Message-ID: <msg-003@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Apologies—invoice INV-1077 was issued from an older template. We will reissue as INV-1077A with the 12% discount applied.

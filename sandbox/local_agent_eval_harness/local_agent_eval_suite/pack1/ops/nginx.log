@@ -1,0 +1,7 @@
+127.0.0.1 - - [28/Jul/2025:14:03:12 -0700] "GET /api/health HTTP/1.1" 200 12 "-" "curl/8.1"
+127.0.0.1 - - [28/Jul/2025:14:05:01 -0700] "POST /api/payments HTTP/1.1" 500 298 "-" "python-requests/2.31"
+127.0.0.1 - - [28/Jul/2025:14:05:22 -0700] "POST /api/payments HTTP/1.1" 500 298 "-" "python-requests/2.31"
+127.0.0.1 - - [28/Jul/2025:14:06:03 -0700] "POST /api/payments HTTP/1.1" 500 298 "-" "python-requests/2.31"
+127.0.0.1 - - [28/Jul/2025:14:08:44 -0700] "POST /api/payments HTTP/1.1" 500 298 "-" "python-requests/2.31"
+127.0.0.1 - - [28/Jul/2025:14:10:12 -0700] "POST /api/payments HTTP/1.1" 500 298 "-" "python-requests/2.31"
+127.0.0.1 - - [28/Jul/2025:14:12:11 -0700] "GET /api/health HTTP/1.1" 200 12 "-" "curl/8.1"

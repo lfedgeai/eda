@@ -1,0 +1,38 @@
+{
+  "ocr_scans": {
+    "inv_id": "INV-2091",
+    "discount": "12%",
+    "po": "PO-8821",
+    "bank_wire_ref": "EU-818",
+    "delivery_order": "O-2007",
+    "delivery_sku_qty": {
+      "SKU-B": 6,
+      "date": "2025-07-29"
+    }
+  },
+  "sql_recon": {
+    "o2007_unit_price_db": 170.0,
+    "agreed_unit_price_zip": 150.0,
+    "qty": 6,
+    "total_difference_usd": 120.0,
+    "refund_recorded_usd": 170.0,
+    "refund_needed_additional_usd": -50.0
+  },
+  "mbox_threads": {
+    "chargeback_order": "O-2007",
+    "chargeback_payment": "PMT-5001"
+  },
+  "audio_diarization": {
+    "claims": [
+      "INV-2091 missing discount",
+      "audit bundle sets unit to 150 for SKU-B",
+      "refund one unit difference"
+    ]
+  },
+  "archives": {
+    "tar_contains_zip": true,
+    "zip_contains": [
+      "audit/audit.csv"
+    ]
+  }
+}

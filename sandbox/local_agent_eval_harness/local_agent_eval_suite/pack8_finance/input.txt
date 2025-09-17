@@ -1,0 +1,10 @@
+“Compare Tesla’s revenue and net income in 2023 and 2024.”
+“Did Tesla increase or decrease R&D spending in 2024?”
+“What’s new about Tesla’s energy storage segment in 2024?”
+“What were the top risk factors listed in 2023 and how did they change in 2024?”
+“Was Optimus (humanoid robot) mentioned in both years?”
+“List all references to Robotaxi in 2024’s 10-K.”
+“Which new factories or locations were added in 2024?”
+“Has Tesla’s approach to AI and FSD changed year-over-year?”
+“Did Tesla mention more government incentives in 2024 than 2023?”
+“Summarize the key differences in the business overview section.”

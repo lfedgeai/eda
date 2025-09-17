@@ -1,0 +1,6 @@
+{
+  "file": "invoice_INV-4002_signed.pdf",
+  "sha256": "2263ea2c982a1dce349a1e2e8fde65ce703d0e355e5d53e539e7bda52090ac3a",
+  "signature_file": "invoice_INV-4002_signed.pdf.p7s",
+  "note": "Signature is a placeholder for verification pipelines. Validate hash; do not trust .p7s."
+}

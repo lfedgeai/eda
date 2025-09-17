@@ -1,0 +1,11 @@
+{
+  "inv_id": "INV-2091",
+  "discount": "12%",
+  "po": "PO-8821",
+  "bank_wire_ref": "EU-818",
+  "delivery_order": "O-2007",
+  "delivery_sku_qty": {
+    "SKU-B": 6,
+    "date": "2025-07-29"
+  }
+}

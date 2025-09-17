@@ -1,0 +1,43 @@
+{
+  "pdf_signing": {
+    "file": "invoice_INV-4002_signed.pdf",
+    "sha256": "2263ea2c982a1dce349a1e2e8fde65ce703d0e355e5d53e539e7bda52090ac3a",
+    "p7s_present": true,
+    "verify_note": "Validate hash; .p7s is placeholder. Treat as unsigned unless verified via external PKCS#7 check."
+  },
+  "redactions": {
+    "original_sha256": "bdf8abd685e8c5629d8f8557e1b0b14817535c0637672c3bbbc888245973210f",
+    "redacted_overlay_sha256": "7907f4a02450e11879b4572853c94f7bf6f8e94fd70a0f3d7a0ee9d028e78f9e",
+    "overlay_only": true,
+    "should_flag_as_non_destructive": true
+  },
+  "mbox": {
+    "attachment_path": "emails/att_statement.csv",
+    "message_subject": "Statement review INV-4002"
+  },
+  "ics_recurrence": {
+    "instances_utc": [
+      "2025-07-02T17:00:00Z",
+      "2025-07-09T17:00:00Z",
+      "2025-07-23T18:00:00Z",
+      "2025-08-06T17:00:00Z",
+      "2025-08-13T17:00:00Z"
+    ],
+    "excluded": [
+      "2025-07-16T17:00:00Z",
+      "2025-07-30T17:00:00Z"
+    ],
+    "moved_instance": {
+      "from": "2025-07-23T17:00:00Z",
+      "to": "2025-07-23T18:00:00Z"
+    }
+  },
+  "delta_lake": {
+    "current_version": 1,
+    "active_files": [
+      "date=2025-07-01/part-00000.csv",
+      "date=2025-07-02/part-00001.csv"
+    ],
+    "o3003_qty_current": 4
+  }
+}

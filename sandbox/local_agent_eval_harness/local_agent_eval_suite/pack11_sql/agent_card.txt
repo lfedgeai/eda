@@ -1,0 +1,2 @@
+ReceiptQueryAgent
+Interacts with the receipts.db SQLite database to answer natural language queries about receipts, such as totals, averages, filtering by customer, and tip statistics.

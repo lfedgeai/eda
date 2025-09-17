@@ -1,0 +1,2 @@
+Acts as a smart assistant that can read, understand, and analyze a folder of screenshots — like PDFs, web pages, text messages, UI panels, financial reports, whiteboards, code snippets, etc.
+OCR Extraction & Structuring: Extracts text from screenshots using OCR (like Tesseract or OpenAI Vision), then structures it for downstream use (e.g., table parsing, key-value mapping, section segmentation).

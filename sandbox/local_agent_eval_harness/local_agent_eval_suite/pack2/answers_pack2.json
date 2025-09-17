@@ -1,0 +1,60 @@
+{
+  "emails": {
+    "discount_thread": {
+      "po": "PO-8821",
+      "issue_invoice": "INV-1077",
+      "corrected_invoice": "INV-1077A",
+      "discount": "12%",
+      "start": "2025-07-01",
+      "skus": [
+        "SKU-A",
+        "SKU-B"
+      ]
+    }
+  },
+  "pdfs": {
+    "hoa_inspection": {
+      "structural_high": {
+        "id": "F-02",
+        "location": "Unit 5A"
+      },
+      "waterproofing_items": [
+        "F-01",
+        "F-03"
+      ]
+    },
+    "q2_spend_review": {
+      "vendor_name_changes": [
+        "SaaS Pro -> SaaS Ultra"
+      ],
+      "possible_duplicate": "2025-05-11 vs 2025-06-11 same amount $199"
+    }
+  },
+  "audio": {
+    "merged_transcript": [
+      {
+        "start": 0.0,
+        "end": 0.8,
+        "text": "Quarterly review"
+      },
+      {
+        "start": 1.2,
+        "end": 2.4,
+        "text": "Vendor X discount confirmed"
+      }
+    ],
+    "duration_sec": 2.4
+  },
+  "finance_advanced": {
+    "fx_effective_usd_formula": "4300 * 1.082 * (1 - 0.005)",
+    "fx_effective_usd": 4629.34,
+    "ledger_fx_rate_used": 1.075,
+    "delta_vs_ledger_usd": 6.34,
+    "duplicate_saas_hint": true
+  },
+  "hoa": {
+    "board_decision_vs_report_conflict": true,
+    "recommended_vendor": "AllBuild",
+    "risk_if_deferred": "load failure risk increases"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "description": "Ground truth answers for pack10_sensor",
+  "tasks": {
+    "example_task": {
+      "expected_field": "expected_value",
+      "another_field": "another_value"
+    }
+  }
+}

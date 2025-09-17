@@ -1,0 +1,8 @@
+{
+  "employee_id": "E002",
+  "name": "Bob Lee",
+  "events": [
+    "2025-08-03T07:45:18 HQ-Front granted",
+    "2025-08-03T19:12:44 HQ-ServerRoom granted"
+  ]
+}

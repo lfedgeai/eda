@@ -1,0 +1,4 @@
+bid_id,vendor,scope,includes_structure,includes_waterproofing,amount_usd
+BID-001,StructTech,Structural only,yes,no,38000
+BID-002,SealPro,Waterproofing only,no,yes,21000
+BID-003,AllBuild,Structural + Waterproofing,yes,yes,54500

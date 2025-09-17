@@ -1,0 +1,5 @@
+This agent ingests and analyzes timestamped sensor data (e.g., accelerometer, gyroscope, magnetometer, pressure sensors). It understands motion, detects anomalies, and answers time-series queries.
+Visualize and summarize signals
+Answer high-level semantic queries
+Detect anomalies or missing data
+Identify patterns (e.g., walking steps, stillness)

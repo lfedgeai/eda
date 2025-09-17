@@ -1,0 +1,1 @@
+An expert hardware documentation agent that understands the ESP32-S3 SoC and can answer technical questions by referencing its Datasheet and Technical Reference Manual (TRM).

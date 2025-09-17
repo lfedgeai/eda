@@ -1,0 +1,1 @@
+{"commitInfo": {"version": 1, "timestamp": "2025-07-04T00:00:00Z", "operation": "MERGE"}, "remove": [{"path": "date=2025-07-02/part-00000.csv", "dataChange": true}], "add": [{"path": "date=2025-07-02/part-00001.csv", "size": 124, "dataChange": true}]}

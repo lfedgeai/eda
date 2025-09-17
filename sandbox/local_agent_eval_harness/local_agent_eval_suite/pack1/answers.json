@@ -1,0 +1,86 @@
+{
+  "finance": {
+    "bank_minus_ledger_missing_expenses": [
+      {
+        "date": "2025-06-15",
+        "description": "Vendor X Payment INV-1043",
+        "amount": -1250.0
+      }
+    ],
+    "ledger_minus_bank_false_entries": [
+      {
+        "date": "2025-06-02",
+        "description": "SaaS Ultra Monthly",
+        "amount": -199.0
+      }
+    ],
+    "invoice_to_bank_match": {
+      "invoice_id": "INV-1043",
+      "bank_date": "2025-06-15",
+      "amount": 1250.0
+    }
+  },
+  "hr_security": {
+    "post_termination_access": {
+      "employee_id": "E002",
+      "name": "Bob Lee",
+      "events": [
+        "2025-08-03T07:45:18 HQ-Front granted",
+        "2025-08-03T19:12:44 HQ-ServerRoom granted"
+      ]
+    }
+  },
+  "ops": {
+    "500_spike_window": "2025-07-28 14:05\u201314:10 -0700",
+    "top_endpoint": "/api/payments",
+    "root_cause_hint": "DB deadlocks on payments workers"
+  },
+  "product": {
+    "stockout": {
+      "sku": "SKU-B",
+      "date": "2025-07-28",
+      "before_qty": 5,
+      "orders": [
+        {
+          "order_id": "O-1002",
+          "qty": 4
+        },
+        {
+          "order_id": "O-1003",
+          "qty": 3
+        }
+      ],
+      "net_after_orders": -2,
+      "next_restock_eta": "2025-08-05"
+    }
+  },
+  "calendar": {
+    "next_vendor_x_review": "2025-06-15T10:00:00-07:00",
+    "summary": "Vendor X Q2 Review"
+  },
+  "vendors": {
+    "discount": {
+      "vendor": "Vendor X",
+      "rate": "12%",
+      "start": "2025-07-01",
+      "skus": [
+        "SKU-A",
+        "SKU-B"
+      ]
+    }
+  },
+  "security": {
+    "service_url": "https://internal.api.local/v1",
+    "mode": "prod",
+    "api_key_present": true
+  },
+  "cross_file_graph_examples": {
+    "Vendor X mentions": [
+      "finance/invoices/invoice_INV-1043.json",
+      "calendar/company.ics",
+      "vendors/vendor_x_thread.md",
+      "transcripts/meeting_notes.md",
+      "projects/ai-slides/notes.md"
+    ]
+  }
+}

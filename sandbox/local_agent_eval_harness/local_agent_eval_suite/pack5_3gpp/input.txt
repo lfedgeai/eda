@@ -1,0 +1,10 @@
+What are the Band 3 uplink transmitter requirements across all hardware and software configurations?
+Which test cases apply to NR standalone mode for FR1 bands in release 18?
+List the mandatory RF performance tests for UE operating in Band n78.
+Explain the difference in spurious emission limits between FR1 and FR2.
+What’s the reference sensitivity level for Band n41 in 256QAM?
+In clause 6.2.4, what are the tolerance levels for adjacent channel leakage ratio (ACLR)?
+How does TS 38.521-1 define out-of-band emissions for UE in EN-DC mode?
+Summarize all test setup configurations for TDD UE under SISO vs MIMO antennas.
+What measurement bandwidth and RB allocation are used for EVM testing?
+Compare the UE power class definitions for FR2 (mmWave) in release 18.

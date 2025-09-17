@@ -1,0 +1,5 @@
+2025-07-28T14:04:58Z iptables: Allow from 10.0.0.0/8
+2025-07-28T14:05:00Z payments-worker-1 ERROR: DB deadlock on txn_id=981233
+2025-07-28T14:06:10Z payments-worker-2 ERROR: DB deadlock on txn_id=981238
+2025-07-28T14:08:50Z scheduler: restarting payments-worker group
+2025-07-28T14:10:20Z payments-worker-1 INFO: recovered

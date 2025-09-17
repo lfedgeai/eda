@@ -1,0 +1,18 @@
+From billing@vendorx.com Sat Jul  5 08:15:00 2025
+From: "Vendor X Billing" <billing@vendorx.com>
+To: "AP" <ap@example.com>
+Date: Sat, 5 Jul 2025 08:15:00 -0700
+Subject: Statement July
+Message-ID: <x1@example.com>
+
+Attached: scanned_invoice.pdf (image-only)
+Amount: $1250 USD, but no discount line visible.
+
+From ap@example.com Sat Jul  5 10:45:00 2025
+From: "AP Manager" <ap@example.com>
+To: "Vendor X Billing" <billing@vendorx.com>
+Date: Sat, 5 Jul 2025 10:45:00 -0700
+Subject: Re: Statement July
+Message-ID: <x2@example.com>
+
+Please reissue with 12% discount applied per contract terms.

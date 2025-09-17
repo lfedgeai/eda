@@ -1,0 +1,6 @@
+date,description,amount,category
+2025-06-01,Opening Balance,15000.00,equity
+2025-06-10,Client Payment INV-203,5400.00,revenue
+2025-06-02,SaaS Ultra Monthly,-199.00,software
+2025-06-22,Cloud Compute,-820.00,infra
+2025-06-30,Office Rent,-3800.00,rent

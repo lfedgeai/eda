@@ -1,0 +1,4 @@
+employee_id,name,status,termination_date
+E001,Alice Nguyen,active,
+E002,Bob Lee,terminated,2025-07-01
+E003,Carol Park,active,

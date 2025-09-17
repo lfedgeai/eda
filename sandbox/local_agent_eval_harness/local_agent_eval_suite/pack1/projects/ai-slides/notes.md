@@ -1,0 +1,1 @@
+- [ ] Connect Vendor X discount in pricing model for July.

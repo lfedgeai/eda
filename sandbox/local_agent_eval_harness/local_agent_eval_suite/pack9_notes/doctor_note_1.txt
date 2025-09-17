@@ -1,0 +1,54 @@
+SYNTHETIC MEDICAL LOG (FOR ILLUSTRATIVE PURPOSES ONLY)
+
+Patient Name: Jane Doe
+Date of Birth: 08/15/1978
+Date/Time of Entry: 02/25/2025, 09:15 AM
+
+Chief Complaint: Persistent headaches and fatigue over the past 5 days
+
+Vital Signs (at 09:15 AM):
+
+Blood Pressure: 128/82 mmHg
+Heart Rate: 76 bpm
+Respiratory Rate: 16 breaths/min
+Temperature: 98.6 °F (37 °C)
+Oxygen Saturation: 99% on room air
+History of Present Illness (HPI):
+Patient reports a gradual onset of tension-like headaches centered around the temples, becoming more pronounced in the late afternoon. Fatigue levels have also increased since last week, with no recent changes in diet, medications, or sleep schedule. She denies any visual disturbances, nausea, or vomiting. No recent history of trauma.
+
+Past Medical History (PMH):
+
+Mild seasonal allergies (takes OTC antihistamines as needed)
+No chronic illnesses reported
+No known surgeries
+Family History:
+
+Father: Hypertension (managed with medication)
+Mother: Type 2 Diabetes
+Social History:
+
+Non-smoker, occasional social alcohol use
+Works in office environment (reports high work-related stress)
+Exercises 2-3 times a week (jogging, yoga)
+Physical Examination:
+
+HEENT: Mild tenderness around the temporal region upon palpation; no sinus tenderness. Pupils equal, round, reactive to light.
+Neck: No lymphadenopathy, no nuchal rigidity.
+Cardiovascular: Regular rate and rhythm, no murmurs.
+Pulmonary: Clear to auscultation bilaterally.
+Neurological: Cranial nerves grossly intact; no focal deficits noted.
+Assessment/Impression:
+Likely tension-type headaches exacerbated by stress and possibly lack of adequate rest. Fatigue could be related to poor sleep quality and high stress levels.
+
+Plan:
+
+Recommend OTC analgesics (e.g., acetaminophen or ibuprofen) as needed for headache relief.
+Encourage patient to maintain a headache diary to track frequency, duration, and possible triggers.
+Advise stress-management techniques such as mindfulness or short breaks during work.
+Increase daily fluid intake, maintain regular sleep schedule.
+Follow-up in 2 weeks; patient to return sooner if symptoms worsen or new symptoms develop.
+Signed: Dr. A. Rivera (Attending Physician)
+Date/Time: 02/25/2025, 09:45 AM
+
+(Note: All details above are fictional and created for demonstration purposes only.)
+

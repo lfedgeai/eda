@@ -1,0 +1,10 @@
+{
+  "inputs_totals": "SUM(Inputs!D2:D3)",
+  "inputs_discounted_totals": "SUM(Inputs!F2:F3)",
+  "expected_values": {
+    "Inputs!D2": 420.0,
+    "Inputs!D3": 600.0,
+    "Summary!B1": 1020.0,
+    "Summary!B2": 897.6
+  }
+}

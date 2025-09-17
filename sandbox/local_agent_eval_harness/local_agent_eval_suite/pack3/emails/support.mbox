@@ -1,0 +1,21 @@
+From ops@acme.com Mon Jul 28 10:14:00 2025
+From: ops@acme.com
+Date: Mon Jul 28 10:14:00 2025
+Subject: Chargeback alert O-2007
+Message-ID: <m1@local>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Our card processor flagged a dispute on PMT-5001.
+Customer claims unit price should reflect 12% discount on SKU-B.
+
+From ap@beta.llc Wed Jul 30 08:05:00 2025
+From: ap@beta.llc
+Date: Wed Jul 30 08:05:00 2025
+Subject: Shipment delay O-2008
+Message-ID: <m2@local>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+FedEx tracking 999999 shows label created but not picked up until 07/31.
+

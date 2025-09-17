@@ -1,0 +1,10 @@
+{
+  "csv_rows": [
+    {
+      "sku": "SKU-B",
+      "qty": "4",
+      "unit_price": "150.00"
+    }
+  ],
+  "attached_pdf": "invoice_inv3001_scan.pdf"
+}

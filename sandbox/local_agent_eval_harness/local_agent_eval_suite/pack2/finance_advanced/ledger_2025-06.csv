@@ -1,0 +1,5 @@
+date,description,amount,currency,category,note
+2025-06-02,SaaS Ultra Monthly,-199.00,USD,software,vendor renamed from Pro
+2025-06-10,Client Payment INV-203,+5400.00,USD,revenue,
+2025-06-15,Vendor X Payment INV-1043,-1250.00,USD,services,paid
+2025-06-20,Client Payment EU-818,+4623.00,USD,revenue,applied FX rate 1 EUR=1.075

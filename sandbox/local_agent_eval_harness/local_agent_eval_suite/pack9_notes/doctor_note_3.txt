@@ -1,0 +1,63 @@
+
+SYNTHETIC MEDICAL LOG 3 (FOR ILLUSTRATIVE PURPOSES ONLY)
+
+Patient Name: Michael Porter
+Date of Birth: 06/22/1965
+Date/Time of Entry: 03/03/2025, 02:45 PM
+
+Chief Complaint: Follow-up for Type 2 Diabetes Management
+
+Vital Signs (at 02:45 PM):
+
+Blood Pressure: 132/84 mmHg
+Heart Rate: 80 bpm
+Respiratory Rate: 16 breaths/min
+Temperature: 98.2 °F (36.8 °C)
+Oxygen Saturation: 98% on room air
+Current Medications:
+
+Metformin 1000 mg BID
+Lisinopril 10 mg daily
+Aspirin 81 mg daily
+History of Present Illness (HPI):
+Patient returns for routine diabetic follow-up. Reports generally feeling well, but notes occasional episodes of hypoglycemia in the late afternoon (blood glucose readings ~65-70 mg/dL). He attributes these episodes to skipping lunch on busy workdays. Denies any significant changes in vision, foot sores, or numbness.
+
+Past Medical History (PMH):
+
+Type 2 Diabetes diagnosed 5 years ago
+Hypertension
+No known surgeries
+Family History:
+
+Father: Deceased from stroke at age 70
+Mother: Type 2 Diabetes
+Social History:
+
+Works as an accountant with unpredictable meal breaks
+Denies smoking; moderate alcohol use on weekends
+Trying to walk 30 minutes daily as recommended
+Physical Examination:
+
+General: Patient well-appearing, in no acute distress.
+Cardiovascular: Normal S1, S2; no murmurs, gallops, or rubs.
+Pulmonary: Clear breath sounds bilaterally.
+Extremities: No edema, pedal pulses present.
+Diabetic Foot Exam: Intact sensation with monofilament test.
+Lab Results (from last week):
+
+HbA1c: 7.2% (slightly improved from 7.5% three months ago)
+Lipid Panel: LDL 92 mg/dL, HDL 42 mg/dL, Triglycerides 140 mg/dL
+BMP: Within normal limits
+Assessment/Impression:
+Type 2 Diabetes with mild hypoglycemic episodes likely due to inconsistent meal timing. Good overall control, but needs better dietary consistency to prevent drops in blood glucose.
+
+Plan:
+
+Advise patient to schedule consistent meal/snack times and avoid skipping meals.
+Continue Metformin 1000 mg BID.
+Consider nutrition counseling referral for meal planning, particularly on busy workdays.
+Reinforce lifestyle measures: daily exercise, weight management.
+Return in 3 months for repeat labs and follow-up; sooner if recurrent hypoglycemia occurs.
+Signed: Dr. A. Rivera (Attending Physician)
+Date/Time: 03/03/2025, 03:10 PM
+
