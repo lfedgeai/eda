@@ -1,3 +1,7 @@
+# Next-Steps
+- benchmark data curation and build up evaluation framework pipelines
+- (tentative) MCP Filesys, A2A, Lammaindex
+  
 # Edge Data Agent (EDA)
 EDA is an on-premises data analytics solution by leveraging LLM's code generation capability.
 
