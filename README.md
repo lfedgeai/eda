@@ -1,27 +1,33 @@
-# Next-Steps
-- benchmark data curation and build up evaluation framework pipelines
-- (tentative) MCP Filesys, A2A, Lammaindex
-  
-# Edge Data Agent (EDA)
-EDA is an on-premises data analytics solution by leveraging LLM's code generation capability.
+# Edge Data Agent (lfedgeai/EDA)
+**Data-on-prem, Code-on-the-Fly**
 
-[View PDF Slides](https://drive.google.com/file/d/1T6lkWaYl0h4SdZoKudRBnUrloUD7MUEf/view?usp=sharing)
+**Inputs:** Data, User Intention, User Preference  
+**Outputs:** Applications / Services
 
-Rather than requiring users to upload raw data to cloud platforms, EDA keeps everything local, providing a privacy-preserving and efficient way to interact with and analyze data.
+> **Rule:** The code in this repo should be generated from data and prompts (not including toolings and basic MCP services).  
+> Data, user intention, and preference can be dynamic or static.
 
-EDA converts a user’s own data into a local on-demand agent service by leveraging the latest auto code generation capabilities of LLMs
+# Goals
+We focus on AI applications on the edge from both technological & business points of view.
+
+We are monitoring and pushing the boundary of models' intelligence based on on-prem data and algorithms for accurate, useful, efficient, and proactive user experiences.
+
+# Background
+Rather than requiring users to upload raw data to cloud platforms, there should be a way that end users can define their tasks, keeps everything local, providing a privacy-preserving and efficient way to interact with and analyze data.
+
+EDA converts a user’s own data into a local on-demand applications or agent service by leveraging the latest auto code generation capabilities of LLMs
 - Agent code is generated on the fly the first time the user interacts with the database
 - No coding knowledge (maybe even no installation needed if possible) is required for users to build and use
-- In contrast to centralized AI platform, the user do not need uploading raw data
+- In contrast to centralized AI platforms, users do not need to upload raw data
 - The goal is to allow users to interact with, digest, or serve their own data on-demand without prior application development
 
 # Sandbox Data
-sandbox/data/ stores the data, agent_card, input for evaluation
-run local_evaluation.py to evaluate the agent performance
+- `sandbox/data/` stores the data, agent_card, and input for evaluation
+- Run `local_evaluation.py` to evaluate agent performance
 
-=======
-# MVP toolings
-Currently, we are leveraging smolagents and llamaindex framework: read / write files from the local directory. Agent for writing up the retrieval code
+## About Tooling
+(11/2025) Removed the tool folders but developers can use off-the-shelf code generation tools such as cursor, gemini cli, etc.
+(03/2025) we are leveraging the **smolagents** and **llamaindex** frameworks for reading/writing files from the local directory. The agent writes retrieval code automatically.About
 
 
 # Assumptions
@@ -29,6 +35,6 @@ Currently, we are leveraging smolagents and llamaindex framework: read / write f
 2. The cost of autonomous coding goes to negligible
 3. The accuracy and user experience can be further improved by local/personal knowledge of the data base and the information of user query history
 
-# Main Branch vs. Working Branch
-Main Branch targets at solving the problem with prompts only with minimum coding. 
-Working branch targets at practical solution as of right now technologies (giving basic rag code example, code functions e.g. writing/reading files, ...)
+# Branch Strategy
+- **Main Branch:** Targets solving problems with prompts only, with minimum coding
+- **Working Branch:** Targets practical solutions using current technologies (provides basic RAG code examples, code functions e.g., writing/reading files, etc.)

@@ -1,5 +1,0 @@
-smolagent==0.1.0           # or the correct version for your environment
-gpt_index==0.6.6           # LlamaIndex might appear as gpt_index in older versions
-mcp==0.2.1                 # or whichever library you call “MCP tool”
-pip install llama-index
-pip install llama-index-embeddings-huggingface
