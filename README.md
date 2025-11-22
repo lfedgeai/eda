@@ -4,7 +4,7 @@
 **Inputs:** Data, User Intention, User Preference  
 **Outputs:** Applications / Services
 
-> **Rule:** The code in this repo should be generated from data and prompts (not including toolings and basic MCP services).  
+> **Rule:** The code in this repo should all be generated from data and prompts only (not including toolings and basic MCP services).  
 > Data, user intention, and preference can be dynamic or static.
 
 # Goals
@@ -13,7 +13,7 @@ We focus on AI applications on the edge from both technological & business point
 We are monitoring and pushing the boundary of models' intelligence based on on-prem data and algorithms for accurate, useful, efficient, and proactive user experiences.
 
 # Background
-Rather than requiring users to upload raw data to cloud platforms, there should be a way that end users can define their tasks, keeps everything local, providing a privacy-preserving and efficient way to interact with and analyze data.
+Rather than requiring users to upload raw data to cloud platforms, end users should be able to define their tasks (clarify their intents and preferences) while keeping data locally and consuming services generated from their own data.
 
 EDA converts a user’s own data into a local on-demand applications or agent service by leveraging the latest auto code generation capabilities of LLMs
 - Agent code is generated on the fly the first time the user interacts with the database
